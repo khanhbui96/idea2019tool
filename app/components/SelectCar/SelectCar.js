@@ -197,7 +197,7 @@ export default function SelectCar(props) {
         {allStepsCompleted() ? (
           <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
             <div><Result choose={choose} vehicles={vehicles}/></div>
-            <div><Button 
+            <div style={{margin: 20}}><Button 
               variant="contained"
               color="primary" 
               onClick={handleReset}>Bắt đầu lại</Button></div>
